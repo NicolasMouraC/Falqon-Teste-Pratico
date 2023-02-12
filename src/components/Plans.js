@@ -17,9 +17,9 @@ const Plans = () => {
             </div>
             <article className="relative text-white my-[20px]">
                 <img className="bg-contain object-cover" src={hotelImg}/>
-                <div className="bg-Black-rgba w-[100%] p-[20px] absolute bottom-0">
+                <div className="bg-black-rgba w-[100%] p-[20px] absolute bottom-0">
                     <div className="flex justify-between">
-                        <p className="text-[30px] opacity-100">The James Hotel</p>
+                        <p className="text-[30px]">The James Hotel</p>
                         <button type="button" className="bg-gradient-to-r from-royalBlue to-brightPurple px-[10px]">
                             4 NIGHTS
                         </button>
@@ -42,11 +42,11 @@ const Plans = () => {
                         <div className="flex mt-[20px]">
                             <div className="flex flex-col">
                                 <span className="border-2 border-white rounded-full p-[10px]">
-                                    <span className="bg-lightBlue rounded-full text-transparent text-center">btn</span>
+                                    <span className="bg-brightPurple rounded-full text-transparent text-center">btn</span>
                                 </span>
                                 <span className="border-l-2 border-white h-[70px] m-auto"></span>
                                 <span className="border-2 border-white rounded-full p-[10px]">
-                                    <span className="bg-brightPurple rounded-full text-transparent">btn</span>
+                                    <span className="bg-lightBlue rounded-full text-transparent">btn</span>
                                 </span>
                             </div>
                             <div className="flex justify-between flex-col">

@@ -8,8 +8,8 @@ const Header = () => {
             <img src={headerImg} className="w-screen h-[65%]"></img>
             <div className="z-10 px-[20px] absolute bottom-[60px] font-[inter] text-white">
                 <div className="font-normal text-[38px] mb-[20px]">
-                    <h2>Let's get</h2>
-                    <h2>you there...</h2>
+                    <h2 className="drop-shadow-lg">Let's get</h2>
+                    <h2 className="drop-shadow-lg">you there...</h2>
                 </div>
                 <div>
                     <div className="grid grid-cols-2">
@@ -19,7 +19,7 @@ const Header = () => {
                     <div className="px-[20px] py-[20px]  bg-Black bg-opacity-80">
                         <div className="grid grid-cols-3">
                             <div>
-                                <h3 className="text-[52px]">LHR</h3>
+                                <h3 className="text-[52px] drop-shadow-lg font-light">LHR</h3>
                                 <p className="opacity-60">London, England</p>
                             </div>
                             <div className="flex justify-center items-center opacity-50">
@@ -28,7 +28,7 @@ const Header = () => {
                                 <AiOutlineLine size="3rem"/>
                             </div>
                             <div>
-                                <h3 className="text-[52px]">JFK</h3>
+                                <h3 className="text-[52px] drop-shadow-lg font-light">JFK</h3>
                                 <p className="opacity-60">New York City, USA</p>
                             </div>
                         </div>
