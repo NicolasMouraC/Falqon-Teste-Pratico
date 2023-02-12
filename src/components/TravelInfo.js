@@ -16,10 +16,10 @@ const TravelInfo = () => {
                     </span>
                 </div>
                 <hr className="my-[20px] opacity-40"/>
-                <div className="flex justify-between">
+                <div className="flex justify-around">
                     <div className="flex flex-col items-center">
-                        <button className="bg-brightPurple p-[20px] rounded-full mb-[10px]">
-                            <FaTaxi color="white" size="2.5rem"/>
+                        <button className="bg-brightPurple hover:bg-backgroundColor p-[20px] rounded-full mb-[10px]">
+                            <FaTaxi color="white" className="md:text-[2rem]"/>
                         </button>
                         <span className="flex flex-col items-center">
                             <p>$65-$105</p>
@@ -27,8 +27,8 @@ const TravelInfo = () => {
                         </span>
                     </div>
                     <div className="flex flex-col items-center">
-                        <button className="bg-lightBlue p-[20px] rounded-full mb-[10px]">
-                            <MdTrain color="white" size="2.5rem"/>
+                        <button className="bg-lightBlue hover:bg-backgroundColor p-[20px] rounded-full mb-[10px]">
+                            <MdTrain color="white" className="md:text-[2rem]"/>
                         </button>
                         <span className="flex flex-col items-center opacity-60">
                             <p>$20-$30</p>
@@ -36,8 +36,8 @@ const TravelInfo = () => {
                         </span>
                     </div>
                     <div className="flex flex-col items-center">
-                        <button className="bg-blue-600 p-[20px] rounded-full mb-[10px]">
-                            <FaTaxi color="white" size="2.5rem"/>
+                        <button className="bg-blue-600 hover:bg-backgroundColor p-[20px] rounded-full mb-[10px]">
+                            <FaTaxi color="white" className="md:text-[2rem]"/>
                         </button>
                         <span className="flex flex-col items-center opacity-60">
                             <p>$45-$65</p>
@@ -45,8 +45,8 @@ const TravelInfo = () => {
                         </span>
                     </div>
                     <div className="flex flex-col items-center">
-                        <button className="bg-slate-500 p-[20px] rounded-full mb-[10px]">
-                            <FaTaxi color="white" size="2.5rem"/>
+                        <button className="bg-slate-500 hover:bg-backgroundColor p-[20px] rounded-full mb-[10px]">
+                            <FaTaxi color="white" className="md:text-[2rem]"/>
                         </button>
                         <span className="flex flex-col items-center opacity-60">
                             <p>$45-$65</p>
