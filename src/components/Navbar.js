@@ -10,13 +10,13 @@ const NavBar = () => {
                 <ImAirplane color="white" className="rotate-90" size="1.3rem"/>
             </button>
             <button>
-                <RiCompassFill className="opacity-60" color="white" size="1.3rem"/>
+                <RiCompassFill className="opacity-60 text-white hover:text-royalBlue hover:opacity-100" size="1.3rem"/>
             </button>
             <button>
-                <FaUserAlt className="opacity-60" color="white" size="1.3rem"/>
+                <FaUserAlt className="opacity-60 text-white hover:text-royalBlue hover:opacity-100" size="1.3rem"/>
             </button>
             <button>
-                <AiFillHeart className="opacity-60" color="white" size="1.3rem"/>
+                <AiFillHeart className="opacity-60 text-white hover:text-royalBlue hover:opacity-100" size="1.3rem"/>
             </button>
         </nav>
     );

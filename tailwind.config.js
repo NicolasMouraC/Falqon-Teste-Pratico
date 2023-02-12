@@ -14,7 +14,7 @@ module.exports = {
         "Black": "#272727",
         "Black-rgba": "rgba(39, 39, 39, 0.9)",
         "black-rgba": "rgba(0, 0, 0, 0.8)",
-        "backgroundColor": "rgb(25, 0, 49)"
+        "backgroundColor": "rgb(38, 5, 60)"
       }
     },
   },

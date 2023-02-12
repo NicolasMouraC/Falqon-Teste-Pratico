@@ -5,7 +5,7 @@ import { AiOutlineLine } from "react-icons/ai";
 const Header = () => {
     return (
         <header className="relative h-[600px] md:h-[550px] mb-[30px]">
-            <img src={headerImg} className="w-screen h-[65%] md:bg-cover md:h-[100%]"></img>
+            <img src={headerImg} alt="" className="w-screen h-[65%] md:bg-cover md:h-[100%]"></img>
             <div className="z-10 px-[20px] absolute bottom-[60px] font-[inter] text-white mx-auto right-0 left-0 md:px-[30px]">
                 <div className="font-normal text-[38px] mb-[20px]">
                     <h2 className="drop-shadow-lg">Let's get</h2>
@@ -13,8 +13,8 @@ const Header = () => {
                 </div>
                 <div className="">
                     <div className="grid grid-cols-2">
-                        <div className="bg-vividGreen p-[10px]">BOARDING NOW</div>
-                        <div className="text-end bg-Black p-[10px]">GATE CLOSES AT 10:00</div>
+                        <div className="bg-vividGreen p-[15px]">BOARDING NOW</div>
+                        <div className="text-end bg-Black p-[15px]">GATE CLOSES AT 10:00</div>
                     </div>
                     <div className="px-[20px] py-[20px]  bg-Black bg-opacity-80">
                         <div className="grid grid-cols-3">
@@ -53,7 +53,7 @@ const Header = () => {
                                     <p className="opacity-60">DEPARTS</p>
                                     <p className="text-[18px]">10.25</p>
                                 </span>
-                                <button className="p-[20px] bg-royalBlue text-[14px]">
+                                <button className="p-[20px] bg-backgroundColor hover:bg-royalBlue text-[14px]">
                                     VIEW BOARDING PASS    
                                 </button>
                             </div>
