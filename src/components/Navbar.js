@@ -5,7 +5,7 @@ import { AiFillHeart } from "react-icons/ai";
 
 const NavBar = () => {
     return (
-        <nav className="flex justify-around py-[20px] bg-darkPurple"> 
+        <nav className="flex justify-around py-[20px] bg-darkPurple md:fixed md:left-0 md:top-[50%] md:mt-[-100px] md:flex-col md:h-[300px] md:px-[5px] md:rounded-r-full md:z-20"> 
             <button>
                 <ImAirplane color="white" className="rotate-90" size="1.3rem"/>
             </button>
