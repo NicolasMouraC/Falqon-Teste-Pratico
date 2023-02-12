@@ -14,7 +14,7 @@ const Header = () => {
                 <div>
                     <div className="grid grid-cols-2">
                         <div className="bg-vividGreen p-[10px]">BOARDING NOW</div>
-                        <div className="text-end bg-black p-[10px]">GATE CLOSES AT 10:00</div>
+                        <div className="text-end bg-Black p-[10px]">GATE CLOSES AT 10:00</div>
                     </div>
                     <div className="px-[20px] py-[20px]  bg-Black bg-opacity-80">
                         <div className="grid grid-cols-3">

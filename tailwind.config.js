@@ -12,7 +12,7 @@ module.exports = {
         "royalBlue": "#4527A0",
         "vividGreen": "#8BC34A",
         "Black": "#272727",
-        'black-rgba': 'rgba(0, 0, 0, 0.6)'
+        "Black-rgba": "rgba(39, 39, 39, 0.9)"
       }
     },
   },

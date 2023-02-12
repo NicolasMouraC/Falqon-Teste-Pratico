@@ -1,5 +1,6 @@
 import Header from './components/Header.js';
 import Plans from './components/Plans.js';
+import TravelInfo from './components/TravelInfo.js';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Header />
       <Plans />
+      <TravelInfo />
     </div>
   )
 }
