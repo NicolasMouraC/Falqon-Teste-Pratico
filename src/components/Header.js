@@ -4,14 +4,14 @@ import { AiOutlineLine } from "react-icons/ai";
 
 const Header = () => {
     return (
-        <header className="relative h-[600px]">
-            <img src={headerImg} className="w-screen h-[65%]"></img>
-            <div className="z-10 px-[20px] absolute bottom-[60px] font-[inter] text-white">
+        <header className="relative h-[600px] md:h-[550px] mb-[30px]">
+            <img src={headerImg} className="w-screen h-[65%] md:bg-cover md:h-[100%]"></img>
+            <div className="z-10 px-[20px] absolute bottom-[60px] font-[inter] text-white mx-auto right-0 left-0 md:px-[30px]">
                 <div className="font-normal text-[38px] mb-[20px]">
                     <h2 className="drop-shadow-lg">Let's get</h2>
                     <h2 className="drop-shadow-lg">you there...</h2>
                 </div>
-                <div>
+                <div className="">
                     <div className="grid grid-cols-2">
                         <div className="bg-vividGreen p-[10px]">BOARDING NOW</div>
                         <div className="text-end bg-Black p-[10px]">GATE CLOSES AT 10:00</div>
@@ -28,8 +28,8 @@ const Header = () => {
                                 <AiOutlineLine size="3rem"/>
                             </div>
                             <div>
-                                <h3 className="text-[52px] drop-shadow-lg font-light">JFK</h3>
-                                <p className="opacity-60">New York City, USA</p>
+                                <h3 className="text-[52px] drop-shadow-lg font-light text-end">JFK</h3>
+                                <p className="opacity-60 md:text-end">New York City, USA</p>
                             </div>
                         </div>
                         <hr className="my-[15px] opacity-50"/>

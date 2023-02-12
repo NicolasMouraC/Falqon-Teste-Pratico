@@ -3,7 +3,7 @@ import { MdTrain } from "react-icons/md";
 
 const TravelInfo = () => {
     return (
-        <section className="px-[20px]">
+        <section className="px-[20px] md:px-[30px]">
             <article className="relative text-white my-[20px] bg-gradient-to-r from-royalBlue to-brightPurple w-full p-[20px]">
                 <div>
                     <span className="flex">
