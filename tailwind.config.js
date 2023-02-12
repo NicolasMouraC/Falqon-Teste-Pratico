@@ -6,12 +6,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'brightPurple': "#7B1FA2",
+        "brightPurple": "#7B1FA2",
         "darkPurple": "#431C60",
         "lightBlue": "#AAB5E0",
         "royalBlue": "#4527A0",
         "vividGreen": "#8BC34A",
-        "Black": "#272727"
+        "Black": "#272727",
+        "Black-rgba": "rgba(39, 39, 39, 0.9)"
       }
     },
   },
