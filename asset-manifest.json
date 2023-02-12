@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Falqon-Teste-Pratico/static/css/main.6bc82c8c.css",
+    "main.js": "/Falqon-Teste-Pratico/static/js/main.becf364e.js",
+    "static/media/stateOfLibertyImg.webp": "/Falqon-Teste-Pratico/static/media/stateOfLibertyImg.1022977a5e78edc08602.webp",
+    "static/media/headerImg.webp": "/Falqon-Teste-Pratico/static/media/headerImg.3e6b8c655ade1d76b1f8.webp",
+    "static/media/hotelImg.webp": "/Falqon-Teste-Pratico/static/media/hotelImg.87ba3b7a734345207eb1.webp",
+    "static/media/drivingImg.webp": "/Falqon-Teste-Pratico/static/media/drivingImg.5b0c8549a5a33c6fdacd.webp",
+    "static/media/manImg.webp": "/Falqon-Teste-Pratico/static/media/manImg.cb63d506ac9a17335e49.webp",
+    "index.html": "/Falqon-Teste-Pratico/index.html",
+    "main.6bc82c8c.css.map": "/Falqon-Teste-Pratico/static/css/main.6bc82c8c.css.map",
+    "main.becf364e.js.map": "/Falqon-Teste-Pratico/static/js/main.becf364e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bc82c8c.css",
+    "static/js/main.becf364e.js"
+  ]
+}
